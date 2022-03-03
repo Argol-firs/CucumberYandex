@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.RunnerTest" time="114.458" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\driver\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="E:\CucumberYandexMarket\target\test-classes;E:\CucumberYandexMarket\target\classes;C:\Users\VLADISLAV\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\VLADISLAV\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\VLADISLAV\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\VLADISLAV\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\VLADISLAV\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\VLADISLAV\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\VLADISLAV\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\VLADISLAV\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\VLADISLAV\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\VLADISLAV\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\VLADISLAV\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\VLADISLAV\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\VLADISLAV\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\VLADISLAV\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\VLADISLAV\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\VLADISLAV\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\VLADISLAV\.m2\repository\io\qameta\allure\allure-junit5\2.13.6\allure-junit5-2.13.6.jar;C:\Users\VLADISLAV\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.6\allure-junit-platform-2.13.6.jar;C:\Users\VLADISLAV\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.0\junit-platform-launcher-1.7.0.jar;C:\Users\VLADISLAV\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\VLADISLAV\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\VLADISLAV\.m2\repository\io\qameta\allure\allure-cucumber4-jvm\2.15.0\allure-cucumber4-jvm-2.15.0.jar;C:\Users\VLADISLAV\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\VLADISLAV\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\VLADISLAV\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\VLADISLAV\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="allure.link.issue.pattern" value="https://example.org/browse/{}"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\VLADISLAV\AppData\Local\Temp\surefire6528699198661208663\surefirebooter13789509413150568065.jar C:\Users\VLADISLAV\AppData\Local\Temp\surefire6528699198661208663 2022-03-02T22-57-39_766-jvmRun1 surefire17441762759882852853tmp surefire_014354394706340539793tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\CucumberYandexMarket\target\test-classes;E:\CucumberYandexMarket\target\classes;C:\Users\VLADISLAV\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\VLADISLAV\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\VLADISLAV\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\VLADISLAV\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\VLADISLAV\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\VLADISLAV\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\VLADISLAV\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\VLADISLAV\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\VLADISLAV\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\VLADISLAV\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\VLADISLAV\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\VLADISLAV\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\VLADISLAV\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\VLADISLAV\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\VLADISLAV\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\VLADISLAV\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\VLADISLAV\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\VLADISLAV\.m2\repository\io\qameta\allure\allure-junit5\2.13.6\allure-junit5-2.13.6.jar;C:\Users\VLADISLAV\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.6\allure-junit-platform-2.13.6.jar;C:\Users\VLADISLAV\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.0\junit-platform-launcher-1.7.0.jar;C:\Users\VLADISLAV\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-java\6.10.4\cucumber-java-6.10.4.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\VLADISLAV\.m2\repository\io\cucumber\cucumber-junit\7.2.3\cucumber-junit-7.2.3.jar;C:\Users\VLADISLAV\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\VLADISLAV\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\VLADISLAV\.m2\repository\io\qameta\allure\allure-cucumber4-jvm\2.15.0\allure-cucumber4-jvm-2.15.0.jar;C:\Users\VLADISLAV\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\VLADISLAV\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\VLADISLAV\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\VLADISLAV\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;"/>
+    <property name="allure.results.directory" value="allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\VLADISLAV"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="allure.link.tms.pattern" value="https://example.org/browse/{}"/>
+    <property name="basedir" value="E:\CucumberYandexMarket"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\VLADISLAV\AppData\Local\Temp\surefire6528699198661208663\surefirebooter13789509413150568065.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="user.name" value="VLADISLAV"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\VLADISLAV\.m2\repository"/>
+    <property name="cucumber.options" value="--plugin io.qameta.allure.cucumber4jvm.AllureCucumber4Jvm"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VLADIS~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="E:\CucumberYandexMarket"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Users\VLADISLAV\AppData\Local\Microsoft\WindowsApps;;C:\Users\VLADISLAV\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Проверка по категории &quot;Дача и сад-Снегоуборщики-Caiman&quot;" classname="Тест Яндекс маркета" time="28.508">
+    <system-out><![CDATA[
+@SLF4J @example
+Scenario Outline: РџСЂРѕРІРµСЂРєР° РїРѕ РєР°С‚РµРіРѕСЂРёРё "Р”Р°С‡Р° Рё СЃР°Рґ-РЎРЅРµРіРѕСѓР±РѕСЂС‰РёРєРё-Caiman" # src/test/java/tests/features/testFile.feature:21
+  Given РїРµСЂРµР№С‚Рё РЅР° СЃР°Р№С‚ "https://yandex.ru/"                              # tests.stepDef.Steps.openPageSite(java.lang.String)
+  When РІС‹Р±СЂР°С‚СЊ Рё РїРµСЂРµР№С‚Рё РЅР° СЃРµСЂРІРёСЃ "РњР°СЂРєРµС‚"                               # tests.stepDef.Steps.openService(java.lang.String)
+  Then РѕС‚РєСЂС‹С‚СЊ РєР°С‚РµРіРѕСЂРёРё С‚РѕРІР°СЂРѕРІ                                          # tests.stepDef.Steps.openCategories()
+  Then РІС‹Р±СЂР°С‚СЊ РєР°С‚РµРіРѕСЂРёСЋ С‚РѕРІР°СЂРѕРІ "Р”Р°С‡Р° Рё СЃР°Рґ"                             # tests.stepDef.Steps.selectCategories(java.lang.String)
+  Then РІС‹Р±СЂР°С‚СЊ РїРѕРґРєР°С‚РµРіРѕСЂРёСЋ "РЎРЅРµРіРѕСѓР±РѕСЂС‰РёРєРё" Рё РїРµСЂРµР№С‚Рё РїРѕ СЃСЃС‹Р»РєРµ           # tests.stepDef.Steps.selectSubCategories(java.lang.String)
+  Then СѓСЃС‚Р°РЅРѕРІРёС‚СЊ С†РµРЅСѓ РѕС‚ "5000" РґРѕ "50000"                               # tests.stepDef.Steps.inputPriceProduct(java.lang.String,java.lang.String)
+  Then РІС‹Р±СЂР°С‚СЊ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ "Caiman"                                     # tests.stepDef.Steps.selectManufacturer(java.lang.String)
+  Then СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РѕС‚РѕР±СЂР°Р¶РµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ РЅР° СЃС‚СЂР°РЅРёС†Рµ РЅРµ Р±РѕР»РµРµ 12           # tests.stepDef.Steps.selectItemVisible()
+  Then РЅР°Р№С‚Рё РїРµСЂРІРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ РёР· РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С…                         # tests.stepDef.Steps.findFirstProduct()
+  Then РІРµРЅРµСЃС‚Рё РїРµСЂРІРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ РёР· РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РІ РїРѕРёСЃРєРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ    # tests.stepDef.Steps.searchFirstProduct()
+  Then РЅР°Р№С‚Рё РїРµСЂРІРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ РёР· РІРЅРѕРІСЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С…                   # tests.stepDef.Steps.findFirstNewProduct()
+  Then СЃСЂР°РІРЅРёС‚СЊ С‚РѕРІР°СЂС‹                                                    # tests.stepDef.Steps.compareItems()
+  And Р·Р°РєСЂС‹С‚СЊ Р±СЂР°СѓР·РµСЂ                                                     # tests.stepDef.Steps.stopBrowser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 59103
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мар. 02, 2022 10:57:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+мар. 02, 2022 10:58:10 PM org.junit.platform.launcher.core.TestExecutionListenerRegistry lambda$notifyEach$1
+WARNING: TestExecutionListener [io.qameta.allure.junitplatform.AllureJunitPlatform] threw exception for method: executionFinished(TestIdentifier [uniqueId = '[engine:junit-vintage]/[runner:tests.RunnerTest]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdABNZmlsZTovLy9FOi9DdWN1bWJlcllhbmRleE1hcmtldC9zcmMvdGVzdC9qYXZhL3Rlc3RzL2ZlYXR1cmVzL3Rlc3RGaWxlLmZlYXR1cmV4]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABVzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQATWZpbGU6Ly8vRTovQ3VjdW1iZXJZYW5kZXhNYXJrZXQvc3JjL3Rlc3QvamF2YS90ZXN0cy9mZWF0dXJlcy90ZXN0RmlsZS5mZWF0dXJleA==]', parentId = '[engine:junit-vintage]/[runner:tests.RunnerTest]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdABNZmlsZTovLy9FOi9DdWN1bWJlcllhbmRleE1hcmtldC9zcmMvdGVzdC9qYXZhL3Rlc3RzL2ZlYXR1cmVzL3Rlc3RGaWxlLmZlYXR1cmV4]', displayName = 'Проверка по категории "Дача и сад-Снегоуборщики-Caiman"', legacyReportingName = 'Проверка по категории "Дача и сад-Снегоуборщики-Caiman"', source = null, tags = [], type = TEST], TestExecutionResult [status = SUCCESSFUL, throwable = null])
+java.lang.NoSuchMethodError: 'io.qameta.allure.model.TestResultContainer io.qameta.allure.model.TestResultContainer.setChildren(java.util.Collection)'
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.lambda$stopTestContainer$3(AllureJunitPlatform.java:294)
+	at io.qameta.allure.AllureLifecycle.updateTestContainer(AllureLifecycle.java:136)
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.stopTestContainer(AllureJunitPlatform.java:294)
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.executionFinished(AllureJunitPlatform.java:164)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener.lambda$executionFinished$10(TestExecutionListenerRegistry.java:109)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry.lambda$notifyEach$1(TestExecutionListenerRegistry.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry.notifyEach(TestExecutionListenerRegistry.java:65)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry.access$200(TestExecutionListenerRegistry.java:32)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener.executionFinished(TestExecutionListenerRegistry.java:108)
+	at org.junit.platform.launcher.core.ExecutionListenerAdapter.executionFinished(ExecutionListenerAdapter.java:56)
+	at org.junit.platform.launcher.core.DelegatingEngineExecutionListener.executionFinished(DelegatingEngineExecutionListener.java:46)
+	at org.junit.platform.launcher.core.OutcomeDelayingEngineExecutionListener.executionFinished(OutcomeDelayingEngineExecutionListener.java:63)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.fireExecutionFinished(RunListenerAdapter.java:226)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.testFinished(RunListenerAdapter.java:192)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.testFinished(RunListenerAdapter.java:79)
+	at org.junit.runner.notification.SynchronizedRunListener.testFinished(SynchronizedRunListener.java:87)
+	at org.junit.runner.notification.RunNotifier$9.notifyListener(RunNotifier.java:225)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFinished(RunNotifier.java:222)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:150)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+]]></system-err>
+  </testcase>
+  <testcase name="Проверка по категории &quot;Дача и сад-Снегоуборщики-Habert&quot;" classname="Тест Яндекс маркета" time="26.936">
+    <system-out><![CDATA[
+@SLF4J @example
+Scenario Outline: РџСЂРѕРІРµСЂРєР° РїРѕ РєР°С‚РµРіРѕСЂРёРё "Р”Р°С‡Р° Рё СЃР°Рґ-РЎРЅРµРіРѕСѓР±РѕСЂС‰РёРєРё-Habert" # src/test/java/tests/features/testFile.feature:22
+  Given РїРµСЂРµР№С‚Рё РЅР° СЃР°Р№С‚ "https://yandex.ru/"                              # tests.stepDef.Steps.openPageSite(java.lang.String)
+  When РІС‹Р±СЂР°С‚СЊ Рё РїРµСЂРµР№С‚Рё РЅР° СЃРµСЂРІРёСЃ "РњР°СЂРєРµС‚"                               # tests.stepDef.Steps.openService(java.lang.String)
+  Then РѕС‚РєСЂС‹С‚СЊ РєР°С‚РµРіРѕСЂРёРё С‚РѕРІР°СЂРѕРІ                                          # tests.stepDef.Steps.openCategories()
+  Then РІС‹Р±СЂР°С‚СЊ РєР°С‚РµРіРѕСЂРёСЋ С‚РѕРІР°СЂРѕРІ "Р”Р°С‡Р° Рё СЃР°Рґ"                             # tests.stepDef.Steps.selectCategories(java.lang.String)
+  Then РІС‹Р±СЂР°С‚СЊ РїРѕРґРєР°С‚РµРіРѕСЂРёСЋ "РЎРЅРµРіРѕСѓР±РѕСЂС‰РёРєРё" Рё РїРµСЂРµР№С‚Рё РїРѕ СЃСЃС‹Р»РєРµ           # tests.stepDef.Steps.selectSubCategories(java.lang.String)
+  Then СѓСЃС‚Р°РЅРѕРІРёС‚СЊ С†РµРЅСѓ РѕС‚ "12000" РґРѕ "49800"                              # tests.stepDef.Steps.inputPriceProduct(java.lang.String,java.lang.String)
+  Then РІС‹Р±СЂР°С‚СЊ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ "Habert"                                     # tests.stepDef.Steps.selectManufacturer(java.lang.String)
+  Then СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РѕС‚РѕР±СЂР°Р¶РµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ РЅР° СЃС‚СЂР°РЅРёС†Рµ РЅРµ Р±РѕР»РµРµ 12           # tests.stepDef.Steps.selectItemVisible()
+  Then РЅР°Р№С‚Рё РїРµСЂРІРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ РёР· РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С…                         # tests.stepDef.Steps.findFirstProduct()
+  Then РІРµРЅРµСЃС‚Рё РїРµСЂРІРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ РёР· РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РІ РїРѕРёСЃРєРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ    # tests.stepDef.Steps.searchFirstProduct()
+  Then РЅР°Р№С‚Рё РїРµСЂРІРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ РёР· РІРЅРѕРІСЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С…                   # tests.stepDef.Steps.findFirstNewProduct()
+  Then СЃСЂР°РІРЅРёС‚СЊ С‚РѕРІР°СЂС‹                                                    # tests.stepDef.Steps.compareItems()
+  And Р·Р°РєСЂС‹С‚СЊ Р±СЂР°СѓР·РµСЂ                                                     # tests.stepDef.Steps.stopBrowser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 21763
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мар. 02, 2022 10:58:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+мар. 02, 2022 10:58:37 PM org.junit.platform.launcher.core.TestExecutionListenerRegistry lambda$notifyEach$1
+WARNING: TestExecutionListener [io.qameta.allure.junitplatform.AllureJunitPlatform] threw exception for method: executionFinished(TestIdentifier [uniqueId = '[engine:junit-vintage]/[runner:tests.RunnerTest]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdABNZmlsZTovLy9FOi9DdWN1bWJlcllhbmRleE1hcmtldC9zcmMvdGVzdC9qYXZhL3Rlc3RzL2ZlYXR1cmVzL3Rlc3RGaWxlLmZlYXR1cmV4]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABZzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQATWZpbGU6Ly8vRTovQ3VjdW1iZXJZYW5kZXhNYXJrZXQvc3JjL3Rlc3QvamF2YS90ZXN0cy9mZWF0dXJlcy90ZXN0RmlsZS5mZWF0dXJleA==]', parentId = '[engine:junit-vintage]/[runner:tests.RunnerTest]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdABNZmlsZTovLy9FOi9DdWN1bWJlcllhbmRleE1hcmtldC9zcmMvdGVzdC9qYXZhL3Rlc3RzL2ZlYXR1cmVzL3Rlc3RGaWxlLmZlYXR1cmV4]', displayName = 'Проверка по категории "Дача и сад-Снегоуборщики-Habert"', legacyReportingName = 'Проверка по категории "Дача и сад-Снегоуборщики-Habert"', source = null, tags = [], type = TEST], TestExecutionResult [status = SUCCESSFUL, throwable = null])
+java.lang.NoSuchMethodError: 'io.qameta.allure.model.TestResultContainer io.qameta.allure.model.TestResultContainer.setChildren(java.util.Collection)'
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.lambda$stopTestContainer$3(AllureJunitPlatform.java:294)
+	at io.qameta.allure.AllureLifecycle.updateTestContainer(AllureLifecycle.java:136)
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.stopTestContainer(AllureJunitPlatform.java:294)
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.executionFinished(AllureJunitPlatform.java:164)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener.lambda$executionFinished$10(TestExecutionListenerRegistry.java:109)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry.lambda$notifyEach$1(TestExecutionListenerRegistry.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry.notifyEach(TestExecutionListenerRegistry.java:65)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry.access$200(TestExecutionListenerRegistry.java:32)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener.executionFinished(TestExecutionListenerRegistry.java:108)
+	at org.junit.platform.launcher.core.ExecutionListenerAdapter.executionFinished(ExecutionListenerAdapter.java:56)
+	at org.junit.platform.launcher.core.DelegatingEngineExecutionListener.executionFinished(DelegatingEngineExecutionListener.java:46)
+	at org.junit.platform.launcher.core.OutcomeDelayingEngineExecutionListener.executionFinished(OutcomeDelayingEngineExecutionListener.java:63)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.fireExecutionFinished(RunListenerAdapter.java:226)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.testFinished(RunListenerAdapter.java:192)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.testFinished(RunListenerAdapter.java:79)
+	at org.junit.runner.notification.SynchronizedRunListener.testFinished(SynchronizedRunListener.java:87)
+	at org.junit.runner.notification.RunNotifier$9.notifyListener(RunNotifier.java:225)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFinished(RunNotifier.java:222)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:150)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+]]></system-err>
+  </testcase>
+  <testcase name="Проверка по категории &quot;Мебель-Компьютерные кресла-SIGNAL&quot;" classname="Тест Яндекс маркета" time="22.951">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Производитель SIGNAL не найден
+]]></failure>
+    <system-out><![CDATA[
+@SLF4J @example
+Scenario Outline: РџСЂРѕРІРµСЂРєР° РїРѕ РєР°С‚РµРіРѕСЂРёРё "РњРµР±РµР»СЊ-РљРѕРјРїСЊСЋС‚РµСЂРЅС‹Рµ РєСЂРµСЃР»Р°-SIGNAL" # src/test/java/tests/features/testFile.feature:23
+  Given РїРµСЂРµР№С‚Рё РЅР° СЃР°Р№С‚ "https://yandex.ru/"                                # tests.stepDef.Steps.openPageSite(java.lang.String)
+  When РІС‹Р±СЂР°С‚СЊ Рё РїРµСЂРµР№С‚Рё РЅР° СЃРµСЂРІРёСЃ "РњР°СЂРєРµС‚"                                 # tests.stepDef.Steps.openService(java.lang.String)
+  Then РѕС‚РєСЂС‹С‚СЊ РєР°С‚РµРіРѕСЂРёРё С‚РѕРІР°СЂРѕРІ                                            # tests.stepDef.Steps.openCategories()
+  Then РІС‹Р±СЂР°С‚СЊ РєР°С‚РµРіРѕСЂРёСЋ С‚РѕРІР°СЂРѕРІ "РњРµР±РµР»СЊ"                                   # tests.stepDef.Steps.selectCategories(java.lang.String)
+  Then РІС‹Р±СЂР°С‚СЊ РїРѕРґРєР°С‚РµРіРѕСЂРёСЋ "РљРѕРјРїСЊСЋС‚РµСЂРЅС‹Рµ РєСЂРµСЃР»Р°" Рё РїРµСЂРµР№С‚Рё РїРѕ СЃСЃС‹Р»РєРµ       # tests.stepDef.Steps.selectSubCategories(java.lang.String)
+  Then СѓСЃС‚Р°РЅРѕРІРёС‚СЊ С†РµРЅСѓ РѕС‚ "10000" РґРѕ "30000"                                # tests.stepDef.Steps.inputPriceProduct(java.lang.String,java.lang.String)
+  Then РІС‹Р±СЂР°С‚СЊ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ "SIGNAL"                                       # tests.stepDef.Steps.selectManufacturer(java.lang.String)
+      org.opentest4j.AssertionFailedError: РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ SIGNAL РЅРµ РЅР°Р№РґРµРЅ
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
+	at pages.PageMarketProduct.clickCheckbox(PageMarketProduct.java:81)
+	at tests.stepDef.Steps.selectManufacturer(Steps.java:59)
+	at вњЅ.РІС‹Р±СЂР°С‚СЊ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ "SIGNAL"(file:///E:/CucumberYandexMarket/src/test/java/tests/features/testFile.feature:12)
+
+  Then СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РѕС‚РѕР±СЂР°Р¶РµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ РЅР° СЃС‚СЂР°РЅРёС†Рµ РЅРµ Р±РѕР»РµРµ 12             # tests.stepDef.Steps.selectItemVisible()
+  Then РЅР°Р№С‚Рё РїРµСЂРІРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ РёР· РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С…                           # tests.stepDef.Steps.findFirstProduct()
+  Then РІРµРЅРµСЃС‚Рё РїРµСЂРІРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ РёР· РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РІ РїРѕРёСЃРєРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ      # tests.stepDef.Steps.searchFirstProduct()
+  Then РЅР°Р№С‚Рё РїРµСЂРІРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ РёР· РІРЅРѕРІСЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С…                     # tests.stepDef.Steps.findFirstNewProduct()
+  Then СЃСЂР°РІРЅРёС‚СЊ С‚РѕРІР°СЂС‹                                                      # tests.stepDef.Steps.compareItems()
+  And Р·Р°РєСЂС‹С‚СЊ Р±СЂР°СѓР·РµСЂ                                                       # tests.stepDef.Steps.stopBrowser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 42352
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мар. 02, 2022 10:58:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+мар. 02, 2022 10:59:00 PM org.junit.platform.launcher.core.TestExecutionListenerRegistry lambda$notifyEach$1
+WARNING: TestExecutionListener [io.qameta.allure.junitplatform.AllureJunitPlatform] threw exception for method: executionFinished(TestIdentifier [uniqueId = '[engine:junit-vintage]/[runner:tests.RunnerTest]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdABNZmlsZTovLy9FOi9DdWN1bWJlcllhbmRleE1hcmtldC9zcmMvdGVzdC9qYXZhL3Rlc3RzL2ZlYXR1cmVzL3Rlc3RGaWxlLmZlYXR1cmV4]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABdzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQATWZpbGU6Ly8vRTovQ3VjdW1iZXJZYW5kZXhNYXJrZXQvc3JjL3Rlc3QvamF2YS90ZXN0cy9mZWF0dXJlcy90ZXN0RmlsZS5mZWF0dXJleA==]', parentId = '[engine:junit-vintage]/[runner:tests.RunnerTest]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdABNZmlsZTovLy9FOi9DdWN1bWJlcllhbmRleE1hcmtldC9zcmMvdGVzdC9qYXZhL3Rlc3RzL2ZlYXR1cmVzL3Rlc3RGaWxlLmZlYXR1cmV4]', displayName = 'Проверка по категории "Мебель-Компьютерные кресла-SIGNAL"', legacyReportingName = 'Проверка по категории "Мебель-Компьютерные кресла-SIGNAL"', source = null, tags = [], type = TEST], TestExecutionResult [status = FAILED, throwable = org.opentest4j.AssertionFailedError: Производитель SIGNAL не найден])
+java.lang.NoSuchMethodError: 'io.qameta.allure.model.TestResultContainer io.qameta.allure.model.TestResultContainer.setChildren(java.util.Collection)'
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.lambda$stopTestContainer$3(AllureJunitPlatform.java:294)
+	at io.qameta.allure.AllureLifecycle.updateTestContainer(AllureLifecycle.java:136)
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.stopTestContainer(AllureJunitPlatform.java:294)
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.executionFinished(AllureJunitPlatform.java:164)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener.lambda$executionFinished$10(TestExecutionListenerRegistry.java:109)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry.lambda$notifyEach$1(TestExecutionListenerRegistry.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry.notifyEach(TestExecutionListenerRegistry.java:65)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry.access$200(TestExecutionListenerRegistry.java:32)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener.executionFinished(TestExecutionListenerRegistry.java:108)
+	at org.junit.platform.launcher.core.ExecutionListenerAdapter.executionFinished(ExecutionListenerAdapter.java:56)
+	at org.junit.platform.launcher.core.DelegatingEngineExecutionListener.executionFinished(DelegatingEngineExecutionListener.java:46)
+	at org.junit.platform.launcher.core.OutcomeDelayingEngineExecutionListener.executionFinished(OutcomeDelayingEngineExecutionListener.java:63)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.fireExecutionFinished(RunListenerAdapter.java:226)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.testFinished(RunListenerAdapter.java:192)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.testFinished(RunListenerAdapter.java:79)
+	at org.junit.runner.notification.SynchronizedRunListener.testFinished(SynchronizedRunListener.java:87)
+	at org.junit.runner.notification.RunNotifier$9.notifyListener(RunNotifier.java:225)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFinished(RunNotifier.java:222)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:150)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+]]></system-err>
+  </testcase>
+  <testcase name="Проверка по категории &quot;Мебель-Компьютерные кресла-Zombie&quot;" classname="Тест Яндекс маркета" time="35.276">
+    <system-out><![CDATA[
+@SLF4J @example
+Scenario Outline: РџСЂРѕРІРµСЂРєР° РїРѕ РєР°С‚РµРіРѕСЂРёРё "РњРµР±РµР»СЊ-РљРѕРјРїСЊСЋС‚РµСЂРЅС‹Рµ РєСЂРµСЃР»Р°-Zombie" # src/test/java/tests/features/testFile.feature:24
+  Given РїРµСЂРµР№С‚Рё РЅР° СЃР°Р№С‚ "https://yandex.ru/"                                # tests.stepDef.Steps.openPageSite(java.lang.String)
+  When РІС‹Р±СЂР°С‚СЊ Рё РїРµСЂРµР№С‚Рё РЅР° СЃРµСЂРІРёСЃ "РњР°СЂРєРµС‚"                                 # tests.stepDef.Steps.openService(java.lang.String)
+  Then РѕС‚РєСЂС‹С‚СЊ РєР°С‚РµРіРѕСЂРёРё С‚РѕРІР°СЂРѕРІ                                            # tests.stepDef.Steps.openCategories()
+  Then РІС‹Р±СЂР°С‚СЊ РєР°С‚РµРіРѕСЂРёСЋ С‚РѕРІР°СЂРѕРІ "РњРµР±РµР»СЊ"                                   # tests.stepDef.Steps.selectCategories(java.lang.String)
+  Then РІС‹Р±СЂР°С‚СЊ РїРѕРґРєР°С‚РµРіРѕСЂРёСЋ "РљРѕРјРїСЊСЋС‚РµСЂРЅС‹Рµ РєСЂРµСЃР»Р°" Рё РїРµСЂРµР№С‚Рё РїРѕ СЃСЃС‹Р»РєРµ       # tests.stepDef.Steps.selectSubCategories(java.lang.String)
+  Then СѓСЃС‚Р°РЅРѕРІРёС‚СЊ С†РµРЅСѓ РѕС‚ "5000" РґРѕ "17000"                                 # tests.stepDef.Steps.inputPriceProduct(java.lang.String,java.lang.String)
+  Then РІС‹Р±СЂР°С‚СЊ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ "Zombie"                                       # tests.stepDef.Steps.selectManufacturer(java.lang.String)
+  Then СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РѕС‚РѕР±СЂР°Р¶РµРЅРёРµ СЌР»РµРјРµРЅС‚РѕРІ РЅР° СЃС‚СЂР°РЅРёС†Рµ РЅРµ Р±РѕР»РµРµ 12             # tests.stepDef.Steps.selectItemVisible()
+  Then РЅР°Р№С‚Рё РїРµСЂРІРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ РёР· РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С…                           # tests.stepDef.Steps.findFirstProduct()
+  Then РІРµРЅРµСЃС‚Рё РїРµСЂРІРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ РёР· РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С… РІ РїРѕРёСЃРєРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ      # tests.stepDef.Steps.searchFirstProduct()
+  Then РЅР°Р№С‚Рё РїРµСЂРІРѕРµ РїСЂРµРґР»РѕР¶РµРЅРёРµ РёР· РІРЅРѕРІСЊ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅС‹С…                     # tests.stepDef.Steps.findFirstNewProduct()
+  Then СЃСЂР°РІРЅРёС‚СЊ С‚РѕРІР°СЂС‹                                                      # tests.stepDef.Steps.compareItems()
+  And Р·Р°РєСЂС‹С‚СЊ Р±СЂР°СѓР·РµСЂ                                                       # tests.stepDef.Steps.stopBrowser()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 98.0.4758.80 (7f0488e8ba0d8e019187c6325a16c29d9b7f4989-refs/branch-heads/4758@{#972}) on port 5958
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мар. 02, 2022 10:59:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+мар. 02, 2022 10:59:36 PM org.junit.platform.launcher.core.TestExecutionListenerRegistry lambda$notifyEach$1
+WARNING: TestExecutionListener [io.qameta.allure.junitplatform.AllureJunitPlatform] threw exception for method: executionFinished(TestIdentifier [uniqueId = '[engine:junit-vintage]/[runner:tests.RunnerTest]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdABNZmlsZTovLy9FOi9DdWN1bWJlcllhbmRleE1hcmtldC9zcmMvdGVzdC9qYXZhL3Rlc3RzL2ZlYXR1cmVzL3Rlc3RGaWxlLmZlYXR1cmV4]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cAAAABhzcgAMamF2YS5uZXQuVVJJrAF4LkOeSasDAAFMAAZzdHJpbmd0ABJMamF2YS9sYW5nL1N0cmluZzt4cHQATWZpbGU6Ly8vRTovQ3VjdW1iZXJZYW5kZXhNYXJrZXQvc3JjL3Rlc3QvamF2YS90ZXN0cy9mZWF0dXJlcy90ZXN0RmlsZS5mZWF0dXJleA==]', parentId = '[engine:junit-vintage]/[runner:tests.RunnerTest]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdABNZmlsZTovLy9FOi9DdWN1bWJlcllhbmRleE1hcmtldC9zcmMvdGVzdC9qYXZhL3Rlc3RzL2ZlYXR1cmVzL3Rlc3RGaWxlLmZlYXR1cmV4]', displayName = 'Проверка по категории "Мебель-Компьютерные кресла-Zombie"', legacyReportingName = 'Проверка по категории "Мебель-Компьютерные кресла-Zombie"', source = null, tags = [], type = TEST], TestExecutionResult [status = SUCCESSFUL, throwable = null])
+java.lang.NoSuchMethodError: 'io.qameta.allure.model.TestResultContainer io.qameta.allure.model.TestResultContainer.setChildren(java.util.Collection)'
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.lambda$stopTestContainer$3(AllureJunitPlatform.java:294)
+	at io.qameta.allure.AllureLifecycle.updateTestContainer(AllureLifecycle.java:136)
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.stopTestContainer(AllureJunitPlatform.java:294)
+	at io.qameta.allure.junitplatform.AllureJunitPlatform.executionFinished(AllureJunitPlatform.java:164)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener.lambda$executionFinished$10(TestExecutionListenerRegistry.java:109)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry.lambda$notifyEach$1(TestExecutionListenerRegistry.java:67)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry.notifyEach(TestExecutionListenerRegistry.java:65)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry.access$200(TestExecutionListenerRegistry.java:32)
+	at org.junit.platform.launcher.core.TestExecutionListenerRegistry$CompositeTestExecutionListener.executionFinished(TestExecutionListenerRegistry.java:108)
+	at org.junit.platform.launcher.core.ExecutionListenerAdapter.executionFinished(ExecutionListenerAdapter.java:56)
+	at org.junit.platform.launcher.core.DelegatingEngineExecutionListener.executionFinished(DelegatingEngineExecutionListener.java:46)
+	at org.junit.platform.launcher.core.OutcomeDelayingEngineExecutionListener.executionFinished(OutcomeDelayingEngineExecutionListener.java:63)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.fireExecutionFinished(RunListenerAdapter.java:226)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.testFinished(RunListenerAdapter.java:192)
+	at org.junit.vintage.engine.execution.RunListenerAdapter.testFinished(RunListenerAdapter.java:79)
+	at org.junit.runner.notification.SynchronizedRunListener.testFinished(SynchronizedRunListener.java:87)
+	at org.junit.runner.notification.RunNotifier$9.notifyListener(RunNotifier.java:225)
+	at org.junit.runner.notification.RunNotifier$SafeNotifier.run(RunNotifier.java:72)
+	at org.junit.runner.notification.RunNotifier.fireTestFinished(RunNotifier.java:222)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:150)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:196)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:89)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunBeforeAllHooks.evaluate(Cucumber.java:266)
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:281)
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:42)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:80)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:72)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:188)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:154)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+]]></system-err>
+  </testcase>
+</testsuite>
